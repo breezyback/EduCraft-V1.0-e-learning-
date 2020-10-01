@@ -1,0 +1,56 @@
+.cr_nav {
+    border-radius: 30px; 
+    background-image: linear-gradient(to right, #0E153A, rgba(255, 101, 132, 0.47));
+    margin: 0px 50px;
+    max-width: 10vw;
+}
+
+.cr_nav a {
+    border-radius: 30px;
+    color: white; 
+    width: 100%;
+}
+
+.dimension {
+    margin-top: 8vw;
+    background-color: rgba(151, 151, 219, 0.5); 
+    width: 48%; 
+    /*z-index: -1; 
+    backdrop-filter: blur(5px);*/
+}
+
+.dimension_2 {
+    margin-left: 0vw;
+    /*z-index: 0;*/
+    background-image: url('img/create/back.png');
+}
+
+.shape {
+    border-radius: 5px;
+}
+
+.shape_btn {
+    border-radius: 20px;
+}
+
+.img_back {
+    width: 60vw; 
+    top: 5vw; 
+    left: 5vw; 
+    z-index: -2;
+}
+
+.img_book {
+    width: 52vw; 
+    bottom: 3vw; 
+    right: 0vw;
+}
+
+.create {
+    background-color: #5F70B5;
+    color: white;
+}
+.create:hover {
+    background-color: #0E153A;
+    color: white;
+}

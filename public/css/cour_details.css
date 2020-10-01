@@ -1,0 +1,97 @@
+.navigate li {
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.navigate li a {
+    font: 500 1.3vw 'Roboto';
+}
+
+.c_title {
+    font: 700 1.8vw 'Roboto';
+    padding-bottom: 1.5vw;
+}
+
+.c {
+    background-image: linear-gradient(to bottom, rgb(148, 147, 209, 0.3), #A4A4EB);
+    width: 13rem;
+}
+
+.ctitle {
+    font: 700 1.4vw 'Roboto';
+    color: #0E153A;
+}
+
+.ctext {
+    font: 500 1vw 'Roboto';
+}
+
+.lesson {
+    border-radius: 40px;
+    background-color: #CACAEB;
+}
+
+.lesson:hover {
+    background-color: #DCDCF5;
+}
+
+.lesson_title {
+    color: #FF6584;
+    font: 1.2vw 'Roboto';
+}
+
+.lesson_nb {
+    color: #FF6584;
+    font: 700 2.5vw 'Roboto';
+}
+
+.lesson_name {
+    color: #0E153A;
+    font: 1.7vw 'Roboto';
+}
+
+.lesson_descr {
+    color: #3D4B85;
+    font: 1.2vw 'Roboto';
+}
+
+.ex_icon {
+    width: 3vw;
+    height: 3vw;
+}
+
+.deja_inscr {
+    font: 700 1.7vw 'Roboto'; 
+    border: 2px solid; 
+    border-radius: 50px;
+}
+
+.deja_inscr:hover {
+    border-color: #FF6584;
+}
+
+.letter_inscr:hover {
+    color: #FF6584;
+}
+
+.inscr {
+    border-color: #0E153A;
+    font: 500 1.8vw 'Roboto';
+    background-color: #0E153A;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.inscr:hover {
+    background-color: rgb(67, 83, 167, 0.82);
+    border-color: #0E153A;
+}
+
+.examen {
+    border-radius: 50px; 
+    background-color: #CACAEB;
+}
+
+.examen:hover {
+    background-color: #DCDCF5;
+}

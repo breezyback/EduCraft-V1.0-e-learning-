@@ -1,0 +1,51 @@
+/* This css file is for the hello view*/
+
+header {
+    background-color: #E2F3F5;
+    box-shadow: 0px 0px 4px rgb(67, 83, 167, 0.82);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.categ {
+    color: rgb(67, 83, 167, 0.82);
+    font-weight: bolder;
+}
+.categ:hover {
+    color: #0E153A;
+}
+
+.title {
+    font-family: 'Roboto';
+    /*font-weight: 500;*/
+    font-weight: bold;
+    color: #0E153A;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+}
+.title:hover {
+    color: rgb(67, 83, 167, 0.82);
+}
+
+.btn-set {
+    background-color: rgb(67, 83, 167, 0.82);
+    color: white;
+}
+.btn-set:hover {
+    color: white;
+    background-color: #0E153A;
+}
+
+.home {
+    border: 2px solid rgb(67, 83, 167, 0.82);
+    border-radius: 100%;
+}
+
+.home:hover {
+    border-color: #0E153A;
+}
+
+footer {
+    min-height: 25vh;
+    background-color: #0E153A;
+}

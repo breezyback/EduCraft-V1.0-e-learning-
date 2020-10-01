@@ -1,0 +1,71 @@
+/* This CSS file is for the welcome view */
+
+.bttc {
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin: auto 2px;
+    text-align: center;
+}
+.fullheight {
+    min-height: 88vh;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 88vh;
+}
+.grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    position: relative;
+    top: 30px;
+}
+.item2-1 {
+    font-size: 3.5em;
+    color: #282E69;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.item2-2 {
+    font-size: 1.5em;
+    position: relative;
+    left: -10px;
+}
+.item2-3 {
+    width: 150px;
+    font-size: 1.5em;
+}
+.grid-item3 {
+    grid-column-start: 5;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.item3-1 {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+.grid-item4 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+.grid-item-img {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.all {
+    background-image: linear-gradient(#C7C7EC, rgb(148, 147, 209, 0));
+}
+.grid-it {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    position: relative;
+    top: 30px;
+}
